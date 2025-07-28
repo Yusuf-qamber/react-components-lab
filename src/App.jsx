@@ -1,5 +1,7 @@
 // src/App.jsx
+import "./WeatherForecast.css"
 import WeatherForecasts from "./components/WeatherForecast/WeatherForecast";
+
 
 const App = () => {
   const weatherForecasts = [
@@ -43,7 +45,7 @@ const App = () => {
   return (
     <>
       <h1>Local Weather</h1>
-      <section>
+      <section className="weather">
         <WeatherForecasts weatherForecasts={weatherForecasts} />
       </section>
     </>
