@@ -16,7 +16,7 @@ const WeatherForecasts = (props) => {
   
    return (
     <>
-      {props.weatherForecasts.map((weather, ) => (
+      {props.weatherForecasts.map((weather ) => (
         <div className="weather" >
           <h2>{weather.day}</h2>
           <img src={weather.img} alt={weather.imgAlt} />
